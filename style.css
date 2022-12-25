@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0F2137;
+    line-height: 1.5;
+}
+
+.header-area .navbar-nav {
+    --bs-nav-link-color: #0F2137;
+    --bs-nav-link-font-size: 16px;
+}
+
+.banner-area {
+    margin-top: 100px;
+}
+.banner-content h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.banner-area .banner-content p{
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.banner-area .btn{
+    --bs-btn-bg: rgba(40, 221, 178, 1);
+    --bs-btn-border-color: transparent;
+    --bs-btn-color: #fff;
+    --bs-btn-padding-x: 30px;
+    --bs-btn-padding-y: 17px;
+
+}
+
+.feature-area {
+    margin: 150px 0;
+}
+
+.feature-area p {
+    line-height: 30px;
+}
+
+.feature-area .service-item h3 {
+    font-size: 18px;
+}
+
+.feature-area .service-icon {
+    margin-bottom: 40px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 90px;
+    text-align: center;
+}
+
+.counter-area {
+    background-color: #F9FAFC;
+    padding: 100px 0;
+}
+
+.counter-item {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 100px rgba(69, 88, 157, 0.08);
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+.counter-item h3 {
+    font-size: 72px;
+    color: #28D1DC;
+}
+.counter-item .pink{
+    color: #FA578E;
+}
+
+.counter-item .orange {
+    color: #FF753A;
+}
+
+.counter-item .green {
+    color: #28DCB2;
+}
+.mt-70 {
+    margin-top: 70px;
+}
