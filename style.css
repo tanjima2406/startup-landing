@@ -94,3 +94,57 @@ body {
 .mt-70 {
     margin-top: 70px;
 }
+
+.counter-content {
+    padding-left: 50px;
+}
+.counter-content h2 {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.counter-content p {
+    font-size: 17px;
+    line-height: 42px;
+    color: #02073E;
+}
+
+.counter-content ul {
+    line-height: 45px;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+.counter-content li {
+    list-style: none;
+}
+
+.counter-content li i {
+    background-color: #3FDBB1;
+    border-radius: 50%;
+    color: #fff;
+}
+.counter-content a {
+    text-decoration: none;
+    color: #4F96FF;
+}
+
+.vidio-section {
+    margin-top: 96px;
+}
+
+.vidio-section h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.vidio-section p {
+    line-height: 35px;
+}
+
+.vidio-section a {
+    text-decoration: none;
+    color: #4F96FF;
+    padding-bottom: 60px;
+}
