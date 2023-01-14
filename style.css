@@ -130,7 +130,8 @@ body {
 }
 
 .vidio-section {
-    margin-top: 96px;
+    padding-top: 96px;
+    padding-bottom: 60px;
 }
 
 .vidio-section h2 {
@@ -147,4 +148,228 @@ body {
     text-decoration: none;
     color: #4F96FF;
     padding-bottom: 60px;
+}
+
+.onother-feature{
+    background-color: #F9FAFC;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.onother-feature h2 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.onother-feature p {
+    line-height: 35px;
+}
+
+.feature-item h3 {
+    font-size: 18px;
+}
+
+.feature-item p {
+    font-size: 15px;
+}
+
+.onother-feature .feature-icon {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    flex: 0 0 auto;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow:  0px 8px 24px rgba(53, 95, 158, 0.1);
+    text-align: center;
+}
+
+.widgets {
+    background-color: #FFF7F5;
+    padding-bottom: 60px;
+}
+
+.widgets-content {
+    padding-left: 100px;
+}
+
+.widgets-content h2{
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.widgets-content p {
+    line-height: 42px;
+}
+
+.widgets-content ul {
+    line-height: 45px;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+.widgets-content li {
+    list-style: none;
+}
+
+.widgets-content li i {
+    background-color: #3FDBB1;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.pricing-table {
+    padding-top: 150px;
+}
+
+.pt-center {
+    width: 993px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-pills {
+    background-color: #F7F8FB;
+    width: 302px;
+    --bs-nav-pills-link-active-color: #0F2137;
+    --bs-nav-pills-link-active-bg: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px ;
+    --bs-nav-pills-border-radius: 5px;
+    border-radius: 10px;
+    --bs-nav-link-padding-x: 25px;
+    --bs-nav-link-padding-y: 12px;
+}
+
+.nav-pills .nav-link .active {
+    box-shadow: 0px 3px 3.8px rgba(38, 78, 118, 0.1);
+    --bs-nav-pills-border-radius: 5px;
+}
+
+.tab-badge .badge {
+    background-color: #36CDA4 !important;
+    border-radius: 25px;
+    width: 82px;
+    --bs-badge-padding-x: 6px;
+    --bs-badge-padding-y: 6px;
+    --bs-badge-font-size: 13px;
+    position: absolute;
+    top: -12px;
+    right: 40px;
+}
+.pricing-item {
+    border: 1px solid #F3F4F5;
+    border-radius: 10px;
+    margin-top: 68px;
+    margin-bottom: 70px;
+    padding-left: 43px;
+    padding-right: 65px;
+    padding-top: 52px;
+}
+
+.pricing-item .pricing-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    margin-bottom: 83px;
+    padding-right: 55px;
+}
+
+.pricing-list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.pricing-list li i {
+    background-color: #CED7E1;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.pricing-list .active i {
+    background-color: #3FDBB1;
+    color: #fff;
+}    
+.pricing-item a {
+    background-color: #FCF2E8;
+    color: #EF9E48;
+    text-decoration: none;
+    padding: 15px 54px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 68px;
+}
+
+.active-item {
+    border: 3px solid #3FDBB1;
+    border-radius: 10px;
+    margin-top: 68px;
+    margin-bottom: 70px;
+    padding-left: 43px;
+    padding-top: 21px;
+}
+.active-item .badge {
+    background-color: #EF9E48 !important;
+    border-radius: 3px;
+    --bs-badge-padding-x: 15px;
+    --bs-badge-padding-y: 10px;
+    --bs-badge-font-size: 14px;
+    margin-bottom: 8px;
+}
+.price p {
+    margin-bottom: 0;
+}
+
+.price h3 {
+    color: #25CB9E;
+}
+
+.accordion-item {
+    margin-top: 18px;
+}
+.accordion-button {
+    font-size: 18px;
+    font-weight: bold;
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.faq {
+    padding-top: 182px;
+}
+.faq-center {
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    margin-top: 160px;
+    padding-top: 45px;
+    background-color: #F9FAFC;
+}
+
+.nav-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.nav-wrapper ul {
+    --bs-link-color: #02073E;
+}
+footer p {
+    font-size: 14px;
+}
+
+footer .nav-item {
+    font-size: 15px;
 }
