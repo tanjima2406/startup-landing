@@ -18,12 +18,29 @@ body {
     --bs-nav-link-font-size: 16px;
 }
 
-.banner-area {
-    margin-top: 100px;
+.header-area .nav-item .active {
+    color: #28DCB2;
 }
+
+.banner-area {
+    padding-top: 50px;
+}
+
+@media (min-width:768px) {
+    .banner-area {
+        padding-top: 100px;
+    }
+}
+
 .banner-content h1{
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+@media (min-width:768px) {
+    .banner-content h1{
+        font-size: 60px;
+    }
 }
 
 .banner-area .banner-content p{
@@ -41,7 +58,13 @@ body {
 }
 
 .feature-area {
-    margin: 150px 0;
+    margin: 50px 0;
+}
+
+@media (min-width:768px) {
+    .feature-area {
+        margin: 150px 0;
+    }
 }
 
 .feature-area p {
@@ -65,7 +88,13 @@ body {
 
 .counter-area {
     background-color: #F9FAFC;
-    padding: 100px 0;
+    padding: 50px 0;
+}
+
+@media (min-width:768px) {
+    .counter-area {
+        padding: 100px 0;
+    }
 }
 
 .counter-item {
@@ -130,8 +159,14 @@ body {
 }
 
 .vidio-section {
-    padding-top: 96px;
+    padding-top: 30px;
     padding-bottom: 60px;
+}
+
+@media (min-width:992px) {
+    .vidio-section {
+        padding-top: 96px;
+    }
 }
 
 .vidio-section h2 {
@@ -148,6 +183,10 @@ body {
     text-decoration: none;
     color: #4F96FF;
     padding-bottom: 60px;
+}
+
+.vidio-section img {
+    width: 100%;
 }
 
 .onother-feature{
@@ -186,11 +225,27 @@ body {
 
 .widgets {
     background-color: #FFF7F5;
-    padding-bottom: 60px;
+    padding-bottom: 28px;
+}
+
+@media (min-width:768px) {
+    .widgets {
+        padding-bottom: 60px;
+    }
+}
+
+.widgets img {
+    width: 100%;
 }
 
 .widgets-content {
-    padding-left: 100px;
+    padding-left: 50px;
+}
+
+@media (min-width:768px) {
+    .widgets-content {
+        padding-left: 100px;
+    }
 }
 
 .widgets-content h2{
@@ -219,18 +274,26 @@ body {
 }
 
 .pricing-table {
-    padding-top: 150px;
+    padding-top: 50px;
+}
+
+@media (min-width:768px) {
+    .pricing-table {
+        padding-top: 150px;
+    }
 }
 
 .pt-center {
-    width: 993px;
+    max-width: 993px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .nav-pills {
     background-color: #F7F8FB;
-    width: 302px;
+    max-width: 302px;
+    width: 100%;
     --bs-nav-pills-link-active-color: #0F2137;
     --bs-nav-pills-link-active-bg: #fff;
     margin-left: auto;
@@ -262,10 +325,17 @@ body {
     border: 1px solid #F3F4F5;
     border-radius: 10px;
     margin-top: 68px;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     padding-left: 43px;
     padding-right: 65px;
     padding-top: 52px;
+    padding-bottom: 68px;
+}
+
+@media (min-width:768px) {
+    .pricing-item{
+        margin-bottom: 70px;
+    }
 }
 
 .pricing-item .pricing-list {
@@ -307,7 +377,6 @@ body {
     padding: 15px 54px;
     border-radius: 5px;
     display: inline-block;
-    margin-bottom: 68px;
 }
 
 .active-item {
@@ -317,6 +386,8 @@ body {
     margin-bottom: 70px;
     padding-left: 43px;
     padding-top: 21px;
+    transform: translateY(-25px);
+    padding-bottom: 50px;
 }
 .active-item .badge {
     background-color: #EF9E48 !important;
@@ -346,17 +417,31 @@ body {
 }
 
 .faq {
-    padding-top: 182px;
+    padding-top: 30px;
 }
+
+@media (min-width:768px) {
+    .faq {
+        padding-top: 182px;
+    }
+}
+
 .faq-center {
-    width: 760px;
+    max-width: 760px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 footer {
-    margin-top: 160px;
+    margin-top: 50px;
     padding-top: 45px;
     background-color: #F9FAFC;
+}
+
+@media (min-width:768px) {
+    footer {
+        margin-top: 160px;
+    }
 }
 
 .nav-wrapper {
@@ -366,10 +451,30 @@ footer {
 .nav-wrapper ul {
     --bs-link-color: #02073E;
 }
+
+.nav-wrapper .nav-item {
+    padding-bottom: 13px;
+}
+
+.nav-wrapper h4 {
+    padding-bottom: 35px;
+}
+
 footer p {
     font-size: 14px;
 }
 
 footer .nav-item {
     font-size: 15px;
+    --bs-nav-link-padding-x: none;
+}
+
+.copyright-area {
+    padding-top: 31px;
+    padding-bottom: 58px;
+}
+
+.copyright-text {
+    color: #0F2137;
+    opacity: 0.6;
 }
